@@ -25,7 +25,7 @@ make
 * Run the following command to start the server to listen for requests
 
 ```bash
-./server -m ./models/llama-3-sqlcoder-8b.Q4_K_M.gguf -c 2048
+./llama-server -m ./models/llama-3-sqlcoder-8b.Q4_K_M.gguf -c 2048
 ```
 
 * To make use of gpu in the system if available refer to [llama.cpp](https://github.com/ggerganov/llama.cpp/)
